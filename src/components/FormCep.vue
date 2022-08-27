@@ -5,7 +5,7 @@
         <div
           class="input-group rounded-pill bg-white p-1"
           :class="{ 'border border-danger': hasError }"
-        >
+        > 
           <input
             type="text"
             class="form-control input-cep custom-input rounded-pill"
