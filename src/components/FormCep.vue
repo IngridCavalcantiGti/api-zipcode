@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
       <div class="col-3 h-64">
         <div
-          class="input-group rounded-pill box-cep"
+          class="input-group rounded-pill bg-white p-1"
           :class="{ 'border border-danger': hasError }"
         >
           <input
@@ -15,7 +15,7 @@
             @keyup.enter="searchCep"
           />
           <button
-            class="btn btn-outline-secondary rounded-circle"
+            class="btn btn-outline-secondary rounded-circle ms-1"
             type="button"
             @click="searchCep"
           >
@@ -149,7 +149,6 @@ $box-shadow-none: none;
 }
 
 .input-cep {
-  background: $gray-900;
   border: $border-none;
 }
 
@@ -163,7 +162,7 @@ button:hover {
 }
 
 .box-cep {
-  background: $gray-900;
+  background: white;
 }
 
 .input-group {
